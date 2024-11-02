@@ -1,0 +1,5 @@
+<ClientConfig>
+	<GameClient name="The Price Is Right" clientCode="mobile" technology="HTML" height="768" width="1024" meterheight="0" meterwidth="10" gameFolder="ThePriceIsRight" enableFreeSpin="N" clientversion="1.0" gameId="300-2114-1" />
+	<GameClient name="The Price Is Right" clientCode="tablet" technology="HTML" height="768" width="1024" meterheight="0" meterwidth="10" gameFolder="ThePriceIsRight" enableFreeSpin="N" clientversion="1.0" gameId="300-2114-1" />
+	<GameClient name="The Price Is Right" clientCode="desktop" technology="HTML" height="768" width="1024" meterheight="0" meterwidth="10" gameFolder="ThePriceIsRight" enableFreeSpin="N" clientversion="1.0" gameId="300-2114-1" />
+</ClientConfig>

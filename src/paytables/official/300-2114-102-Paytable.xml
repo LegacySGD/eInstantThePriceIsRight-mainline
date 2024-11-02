@@ -1,0 +1,1413 @@
+<SignedPaytable>
+	<Key>wwpublic1</Key>
+	<Signature>lsE9dT1caDhKuXMZ1zhGY0DQwwrbsVg7wN/KN8lMGZeGaaYJfb0HkQgx11ckRVhn7RCVVR3qsmEr4G4DzfjxABPIfexGrafkIeAPJNyUYGBjHkXr2w4zrdpzvzxy7AC4HE8xU7QlTcgx+F6gX4z70CQkQ7YF4DB7uN5vurNBgPo=</Signature>
+	<Digest>rTGLkhCCMAYL8nxh0Eb95PxAJY0=</Digest>
+	<DigestedData>
+		<Paytable>
+			<PaytableData crc="">
+				<PaytableVariation name="Variation" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Variation>
+						<SoftwareId>300-2114-102</SoftwareId>
+						<PaytableStatistics description="The Price Is Right" maxRTP="93.00" minRTP="85.00" name="The Price Is Right" type="Lottery"/>
+						<BetConfiguration name="ODEWager">
+							<PlayedCreditsPerSelection>1</PlayedCreditsPerSelection>
+							<PaidCreditsPerSelection>1</PaidCreditsPerSelection>
+						</BetConfiguration>
+						<ExecutionModelMapping>
+							<ExecutionModel name="Wager_Buy">
+								<Data name="Wager_Buy.ActionVerifier" type="Wager_Buy.ActionVerifier"/>
+								<Data name="Wager_Buy.ODEInputVerifier.Wager" type="Wager_Buy.ODEInputVerifier.Wager"/>
+								<Data name="Wager_Buy.ODEInputVerifier.JSON" type="Wager_Buy.ODEInputVerifier.JSON"/>
+								<Data name="Wager_Buy.StaticTriggerProcessor" type="Wager_Buy.StaticTriggerProcessor"/>
+								<Data name="Wager_Buy.LoopProcessor" type="Wager_Buy.LoopProcessor"/>
+								<Data name="Wager_Buy.StageProcessor" type="Wager_Buy.StageProcessor"/>
+								<Data name="Wager_Buy.AdvancedTransactionProcessor" type="Wager_Buy.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Wager_Try">
+								<Data name="Wager_Try.ActionVerifier" type="Wager_Try.ActionVerifier"/>
+								<Data name="Wager_Try.ODEInputVerifier.Wager" type="Wager_Try.ODEInputVerifier.Wager"/>
+								<Data name="Wager_Try.ODEInputVerifier.JSON" type="Wager_Try.ODEInputVerifier.JSON"/>
+								<Data name="Wager_Try.RandomRequest.DivisionSelection" type="Wager_Try.RandomRequest.DivisionSelection"/>
+								<Data name="Wager_Try.RandomRequest.ScenarioPerDivision" type="Wager_Try.RandomRequest.ScenarioPerDivision"/>
+								<Data name="Wager_Try.RandomResponse.DivisionSelection" type="Wager_Try.RandomResponse.DivisionSelection"/>
+								<Data name="Wager_Try.RandomResponse.ScenarioPerDivision" type="Wager_Try.RandomResponse.ScenarioPerDivision"/>
+								<Data name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome" type="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome"/>
+								<Data name="Wager_Try.PopulationTriggerProcessor" type="Wager_Try.PopulationTriggerProcessor"/>
+								<Data name="Wager_Try.BulkGameDataStoreProcessor" type="Wager_Try.BulkGameDataStoreProcessor"/>
+								<Data name="Wager_Try.ODEPrizeProcessor" type="Wager_Try.ODEPrizeProcessor"/>
+								<Data name="Wager_Try.StaticTriggerProcessor" type="Wager_Try.StaticTriggerProcessor"/>
+								<Data name="Wager_Try.StageProcessor" type="Wager_Try.StageProcessor"/>
+								<Data name="Wager_Try.AdvancedTransactionProcessor" type="Wager_Try.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Scenario">
+								<Data name="Scenario.RandomRequest.DivisionSelection" type="Scenario.RandomRequest.DivisionSelection"/>
+								<Data name="Scenario.RandomRequest.ScenarioPerDivision" type="Scenario.RandomRequest.ScenarioPerDivision"/>
+								<Data name="Scenario.RandomResponse.DivisionSelection" type="Scenario.RandomResponse.DivisionSelection"/>
+								<Data name="Scenario.RandomResponse.ScenarioPerDivision" type="Scenario.RandomResponse.ScenarioPerDivision"/>
+								<Data name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome" type="Scenario.OutcomeDeepCopyProcessor.ODEOutcome"/>
+								<Data name="Scenario.PopulationTriggerProcessor" type="Scenario.PopulationTriggerProcessor"/>
+								<Data name="Scenario.BulkGameDataStoreProcessor" type="Scenario.BulkGameDataStoreProcessor"/>
+								<Data name="Scenario.ODEPrizeProcessor" type="Scenario.ODEPrizeProcessor"/>
+								<Data name="Scenario.AdvancedTransactionProcessor" type="Scenario.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Reveal">
+								<Data name="Reveal.ODEInputVerifier" type="Reveal.ODEInputVerifier"/>
+								<Data name="Reveal.ODEInputVerifier.RevealData" type="Reveal.ODEInputVerifier.RevealData"/>
+								<Data name="Reveal.StageProcessor" type="Reveal.StageProcessor"/>
+								<Data name="Reveal.AdvancedTransactionProcessor" type="Reveal.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+						</ExecutionModelMapping>
+					</Variation>
+				</PaytableVariation>
+			</PaytableData>
+			<PaytableData crc="">
+				<ComponentsDataMapping xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<ComponentData name="Wager_Buy.ActionVerifier">
+						<Data name="TryBuyActions" type="ActionInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.ODEInputVerifier.Wager">
+						<Data name="Wager_Buy.Wager" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.ODEInputVerifier.JSON">
+						<Data name="Wager_Buy.JSON" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StaticTriggerProcessor">
+						<Data name="Wager_Buy.StaticTriggers" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.LoopProcessor">
+						<Data name="Wager_Buy.Loop" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StageProcessor">
+						<Data name="Wager_Buy" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.AdvancedTransactionProcessor">
+						<Data name="Wager_Buy" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ActionVerifier">
+						<Data name="TryBuyActions" type="ActionInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEInputVerifier.Wager">
+						<Data name="Wager_Try.Wager" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEInputVerifier.JSON">
+						<Data name="Wager_Try.JSON" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomRequest.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection10" type="StripInfo"/>
+						<Data name="DivisionSelection20" type="StripInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomRequest.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomResponse.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection10" type="StripInfo"/>
+						<Data name="DivisionSelection20" type="StripInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomResponse.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome">
+						<Data name="Wager_Try" type="DeepCopyInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.PopulationTriggerProcessor">
+						<Data name="DivisionSelection" type="PopulationTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.BulkGameDataStoreProcessor">
+						<Data name="BulkGameDataStoreInfo" type="BulkGameDataStoreInfo"/>
+						<Data name="DivisionToScenarioMappings" type="KeyValuePairInfo"/>
+						<Data name="PrizeStructure" type="InstantWinPrizeInfo"/>
+						<Data name="Variation" type="PaytableVariation"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEPrizeProcessor">
+						<Data name="ODE" type="PrizeInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StaticTriggerProcessor">
+						<Data name="Wager_Try.StaticTriggers" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StageProcessor">
+						<Data name="Wager_Try" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.AdvancedTransactionProcessor">
+						<Data name="Wager_Try" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomRequest.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection10" type="StripInfo"/>
+						<Data name="DivisionSelection20" type="StripInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomRequest.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomResponse.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection10" type="StripInfo"/>
+						<Data name="DivisionSelection20" type="StripInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomResponse.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome">
+						<Data name="Scenario" type="DeepCopyInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.PopulationTriggerProcessor">
+						<Data name="DivisionSelection" type="PopulationTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.BulkGameDataStoreProcessor">
+						<Data name="BulkGameDataStoreInfo" type="BulkGameDataStoreInfo"/>
+						<Data name="DivisionToScenarioMappings" type="KeyValuePairInfo"/>
+						<Data name="PrizeStructure" type="InstantWinPrizeInfo"/>
+						<Data name="Variation" type="PaytableVariation"/>
+					</ComponentData>
+					<ComponentData name="Scenario.ODEPrizeProcessor">
+						<Data name="ODE" type="PrizeInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.AdvancedTransactionProcessor">
+						<Data name="Scenario" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.ODEInputVerifier">
+						<Data name="Reveal.Status" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.ODEInputVerifier.RevealData">
+						<Data name="Reveal.RevealData" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.StageProcessor">
+						<Data name="Reveal" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.AdvancedTransactionProcessor">
+						<Data name="Reveal" type="WagerStrategyInfo"/>
+					</ComponentData>
+				</ComponentsDataMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Buy.Wager" verificationStrategy="wager" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Wagers>
+						<Wager name="Wager1"/>
+					</Wagers>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Buy.JSON" verificationStrategy="json" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.StaticTriggers" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.Loop" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Wager_Buy" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" stageConnector="WagerToScenario"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Wager_Buy" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ActionInfo name="TryBuyActions" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Action name="TRY"/>
+					<Action name="BUY"/>
+					<Strategy>action</Strategy>
+				</ActionInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Try.Wager" verificationStrategy="wager" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Wagers>
+						<Wager name="Wager1"/>
+					</Wagers>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Try.JSON" verificationStrategy="json" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<DeepCopyInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<DeepCopy destinationName="ODEResponse" sourceName="ODEResponse.Encrypted" type="JSONOutcome"/>
+				</DeepCopyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Try.StaticTriggers" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" stageConnector="WagerToWager"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" payoutState="payout" priority="0" wagerState="settled"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationInfo name="DivisionSelection" populateStrategy="triggerReelsetSwitch" randomRequestStrategy="triggerReelsetSwitch" uniqueRandoms="false" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Entry name="Division" stripOffset="0">
+						<Cell column="0" layer="0" name="Division" row="0"/>
+					</Entry>
+				</PopulationInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationStripMapping name="DivisionSelection" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Map entry="Division" strip="Division"/>
+				</PopulationStripMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<KeyValuePairInfo name="PricePointStripMappings" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Mapping key="10" value="DivisionSelection10"/>
+					<Mapping key="20" value="DivisionSelection20"/>
+					<Mapping key="50" value="DivisionSelection50"/>
+					<Mapping key="100" value="DivisionSelection100"/>
+					<Mapping key="200" value="DivisionSelection200"/>
+					<Mapping key="300" value="DivisionSelection300"/>
+					<Mapping key="500" value="DivisionSelection500"/>
+					<Mapping key="1000" value="DivisionSelection1000"/>
+				</KeyValuePairInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection10" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="10"/>
+						<Stop symbolID="3" weight="15"/>
+						<Stop symbolID="4" weight="24"/>
+						<Stop symbolID="5" weight="25"/>
+						<Stop symbolID="6" weight="129"/>
+						<Stop symbolID="7" weight="172"/>
+						<Stop symbolID="8" weight="223"/>
+						<Stop symbolID="9" weight="278"/>
+						<Stop symbolID="10" weight="279"/>
+						<Stop symbolID="11" weight="337"/>
+						<Stop symbolID="12" weight="411"/>
+						<Stop symbolID="13" weight="496"/>
+						<Stop symbolID="14" weight="575"/>
+						<Stop symbolID="15" weight="622"/>
+						<Stop symbolID="16" weight="714"/>
+						<Stop symbolID="17" weight="715"/>
+						<Stop symbolID="18" weight="776"/>
+						<Stop symbolID="19" weight="864"/>
+						<Stop symbolID="20" weight="1169"/>
+						<Stop symbolID="21" weight="1493"/>
+						<Stop symbolID="22" weight="1817"/>
+						<Stop symbolID="23" weight="2134"/>
+						<Stop symbolID="24" weight="3181"/>
+						<Stop symbolID="25" weight="4494"/>
+						<Stop symbolID="26" weight="5851"/>
+						<Stop symbolID="27" weight="12049"/>
+						<Stop symbolID="28" weight="26290"/>
+						<Stop symbolID="29" weight="127047"/>
+						<Stop symbolID="30" weight="207809"/>
+						<Stop symbolID="31" weight="600000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection20" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="9"/>
+						<Stop symbolID="3" weight="15"/>
+						<Stop symbolID="4" weight="23"/>
+						<Stop symbolID="5" weight="24"/>
+						<Stop symbolID="6" weight="129"/>
+						<Stop symbolID="7" weight="172"/>
+						<Stop symbolID="8" weight="223"/>
+						<Stop symbolID="9" weight="278"/>
+						<Stop symbolID="10" weight="279"/>
+						<Stop symbolID="11" weight="337"/>
+						<Stop symbolID="12" weight="411"/>
+						<Stop symbolID="13" weight="496"/>
+						<Stop symbolID="14" weight="575"/>
+						<Stop symbolID="15" weight="622"/>
+						<Stop symbolID="16" weight="713"/>
+						<Stop symbolID="17" weight="714"/>
+						<Stop symbolID="18" weight="776"/>
+						<Stop symbolID="19" weight="864"/>
+						<Stop symbolID="20" weight="1168"/>
+						<Stop symbolID="21" weight="1491"/>
+						<Stop symbolID="22" weight="1814"/>
+						<Stop symbolID="23" weight="2131"/>
+						<Stop symbolID="24" weight="3173"/>
+						<Stop symbolID="25" weight="4480"/>
+						<Stop symbolID="26" weight="5832"/>
+						<Stop symbolID="27" weight="11987"/>
+						<Stop symbolID="28" weight="26092"/>
+						<Stop symbolID="29" weight="124142"/>
+						<Stop symbolID="30" weight="211029"/>
+						<Stop symbolID="31" weight="600000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection50" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="10"/>
+						<Stop symbolID="3" weight="16"/>
+						<Stop symbolID="4" weight="24"/>
+						<Stop symbolID="5" weight="25"/>
+						<Stop symbolID="6" weight="130"/>
+						<Stop symbolID="7" weight="173"/>
+						<Stop symbolID="8" weight="224"/>
+						<Stop symbolID="9" weight="279"/>
+						<Stop symbolID="10" weight="280"/>
+						<Stop symbolID="11" weight="338"/>
+						<Stop symbolID="12" weight="412"/>
+						<Stop symbolID="13" weight="497"/>
+						<Stop symbolID="14" weight="576"/>
+						<Stop symbolID="15" weight="623"/>
+						<Stop symbolID="16" weight="714"/>
+						<Stop symbolID="17" weight="715"/>
+						<Stop symbolID="18" weight="777"/>
+						<Stop symbolID="19" weight="865"/>
+						<Stop symbolID="20" weight="1169"/>
+						<Stop symbolID="21" weight="1493"/>
+						<Stop symbolID="22" weight="1816"/>
+						<Stop symbolID="23" weight="2133"/>
+						<Stop symbolID="24" weight="3177"/>
+						<Stop symbolID="25" weight="4486"/>
+						<Stop symbolID="26" weight="5840"/>
+						<Stop symbolID="27" weight="12011"/>
+						<Stop symbolID="28" weight="26166"/>
+						<Stop symbolID="29" weight="125001"/>
+						<Stop symbolID="30" weight="210029"/>
+						<Stop symbolID="31" weight="600000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection100" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="15"/>
+						<Stop symbolID="3" weight="27"/>
+						<Stop symbolID="4" weight="34"/>
+						<Stop symbolID="5" weight="41"/>
+						<Stop symbolID="6" weight="233"/>
+						<Stop symbolID="7" weight="298"/>
+						<Stop symbolID="8" weight="373"/>
+						<Stop symbolID="9" weight="448"/>
+						<Stop symbolID="10" weight="647"/>
+						<Stop symbolID="11" weight="801"/>
+						<Stop symbolID="12" weight="971"/>
+						<Stop symbolID="13" weight="972"/>
+						<Stop symbolID="14" weight="1132"/>
+						<Stop symbolID="15" weight="1231"/>
+						<Stop symbolID="16" weight="1390"/>
+						<Stop symbolID="17" weight="1406"/>
+						<Stop symbolID="18" weight="1611"/>
+						<Stop symbolID="19" weight="1785"/>
+						<Stop symbolID="20" weight="2428"/>
+						<Stop symbolID="21" weight="3097"/>
+						<Stop symbolID="22" weight="3764"/>
+						<Stop symbolID="23" weight="4421"/>
+						<Stop symbolID="24" weight="6551"/>
+						<Stop symbolID="25" weight="9221"/>
+						<Stop symbolID="26" weight="11927"/>
+						<Stop symbolID="27" weight="22441"/>
+						<Stop symbolID="28" weight="63726"/>
+						<Stop symbolID="29" weight="246759"/>
+						<Stop symbolID="30" weight="412249"/>
+						<Stop symbolID="31" weight="1200000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection200" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="37"/>
+						<Stop symbolID="3" weight="62"/>
+						<Stop symbolID="4" weight="63"/>
+						<Stop symbolID="5" weight="64"/>
+						<Stop symbolID="6" weight="259"/>
+						<Stop symbolID="7" weight="323"/>
+						<Stop symbolID="8" weight="369"/>
+						<Stop symbolID="9" weight="410"/>
+						<Stop symbolID="10" weight="459"/>
+						<Stop symbolID="11" weight="587"/>
+						<Stop symbolID="12" weight="645"/>
+						<Stop symbolID="13" weight="670"/>
+						<Stop symbolID="14" weight="747"/>
+						<Stop symbolID="15" weight="871"/>
+						<Stop symbolID="16" weight="1002"/>
+						<Stop symbolID="17" weight="1133"/>
+						<Stop symbolID="18" weight="1393"/>
+						<Stop symbolID="19" weight="1633"/>
+						<Stop symbolID="20" weight="1933"/>
+						<Stop symbolID="21" weight="2347"/>
+						<Stop symbolID="22" weight="2963"/>
+						<Stop symbolID="23" weight="4052"/>
+						<Stop symbolID="24" weight="8991"/>
+						<Stop symbolID="25" weight="18750"/>
+						<Stop symbolID="26" weight="18751"/>
+						<Stop symbolID="27" weight="18752"/>
+						<Stop symbolID="28" weight="31664"/>
+						<Stop symbolID="29" weight="250002"/>
+						<Stop symbolID="30" weight="431067"/>
+						<Stop symbolID="31" weight="1200000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection300" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="10"/>
+						<Stop symbolID="3" weight="18"/>
+						<Stop symbolID="4" weight="26"/>
+						<Stop symbolID="5" weight="35"/>
+						<Stop symbolID="6" weight="107"/>
+						<Stop symbolID="7" weight="167"/>
+						<Stop symbolID="8" weight="293"/>
+						<Stop symbolID="9" weight="355"/>
+						<Stop symbolID="10" weight="649"/>
+						<Stop symbolID="11" weight="819"/>
+						<Stop symbolID="12" weight="977"/>
+						<Stop symbolID="13" weight="1116"/>
+						<Stop symbolID="14" weight="1267"/>
+						<Stop symbolID="15" weight="1428"/>
+						<Stop symbolID="16" weight="1429"/>
+						<Stop symbolID="17" weight="1536"/>
+						<Stop symbolID="18" weight="1701"/>
+						<Stop symbolID="19" weight="1985"/>
+						<Stop symbolID="20" weight="2942"/>
+						<Stop symbolID="21" weight="3578"/>
+						<Stop symbolID="22" weight="4941"/>
+						<Stop symbolID="23" weight="7903"/>
+						<Stop symbolID="24" weight="10117"/>
+						<Stop symbolID="25" weight="17859"/>
+						<Stop symbolID="26" weight="23175"/>
+						<Stop symbolID="27" weight="58603"/>
+						<Stop symbolID="28" weight="79239"/>
+						<Stop symbolID="29" weight="439050"/>
+						<Stop symbolID="30" weight="538674"/>
+						<Stop symbolID="31" weight="1800000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection500" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="64"/>
+						<Stop symbolID="3" weight="81"/>
+						<Stop symbolID="4" weight="103"/>
+						<Stop symbolID="5" weight="123"/>
+						<Stop symbolID="6" weight="363"/>
+						<Stop symbolID="7" weight="421"/>
+						<Stop symbolID="8" weight="477"/>
+						<Stop symbolID="9" weight="526"/>
+						<Stop symbolID="10" weight="985"/>
+						<Stop symbolID="11" weight="1174"/>
+						<Stop symbolID="12" weight="1295"/>
+						<Stop symbolID="13" weight="1432"/>
+						<Stop symbolID="14" weight="1609"/>
+						<Stop symbolID="15" weight="1733"/>
+						<Stop symbolID="16" weight="1911"/>
+						<Stop symbolID="17" weight="1983"/>
+						<Stop symbolID="18" weight="2248"/>
+						<Stop symbolID="19" weight="2522"/>
+						<Stop symbolID="20" weight="3226"/>
+						<Stop symbolID="21" weight="4008"/>
+						<Stop symbolID="22" weight="4988"/>
+						<Stop symbolID="23" weight="6141"/>
+						<Stop symbolID="24" weight="9190"/>
+						<Stop symbolID="25" weight="14651"/>
+						<Stop symbolID="26" weight="40990"/>
+						<Stop symbolID="27" weight="52341"/>
+						<Stop symbolID="28" weight="115362"/>
+						<Stop symbolID="29" weight="595126"/>
+						<Stop symbolID="30" weight="734926"/>
+						<Stop symbolID="31" weight="2400000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection1000" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="63"/>
+						<Stop symbolID="3" weight="67"/>
+						<Stop symbolID="4" weight="76"/>
+						<Stop symbolID="5" weight="84"/>
+						<Stop symbolID="6" weight="452"/>
+						<Stop symbolID="7" weight="486"/>
+						<Stop symbolID="8" weight="543"/>
+						<Stop symbolID="9" weight="590"/>
+						<Stop symbolID="10" weight="1283"/>
+						<Stop symbolID="11" weight="1537"/>
+						<Stop symbolID="12" weight="1538"/>
+						<Stop symbolID="13" weight="1739"/>
+						<Stop symbolID="14" weight="2084"/>
+						<Stop symbolID="15" weight="2214"/>
+						<Stop symbolID="16" weight="2432"/>
+						<Stop symbolID="17" weight="2524"/>
+						<Stop symbolID="18" weight="2872"/>
+						<Stop symbolID="19" weight="3207"/>
+						<Stop symbolID="20" weight="4146"/>
+						<Stop symbolID="21" weight="5144"/>
+						<Stop symbolID="22" weight="6231"/>
+						<Stop symbolID="23" weight="7690"/>
+						<Stop symbolID="24" weight="11525"/>
+						<Stop symbolID="25" weight="19289"/>
+						<Stop symbolID="26" weight="62845"/>
+						<Stop symbolID="27" weight="78774"/>
+						<Stop symbolID="28" weight="168416"/>
+						<Stop symbolID="29" weight="692008"/>
+						<Stop symbolID="30" weight="920140"/>
+						<Stop symbolID="31" weight="3000000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationInfo name="ScenarioPerDivision" populateStrategy="randomLong" randomRequestStrategy="stripLength" uniqueRandoms="false" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Entry name="D1" stripOffset="0">
+						<Cell column="0" layer="0" name="D1" row="0"/>
+					</Entry>
+					<Entry name="D2" stripOffset="0">
+						<Cell column="1" layer="0" name="D2" row="0"/>
+					</Entry>
+					<Entry name="D3" stripOffset="0">
+						<Cell column="2" layer="0" name="D3" row="0"/>
+					</Entry>
+					<Entry name="D4" stripOffset="0">
+						<Cell column="3" layer="0" name="D4" row="0"/>
+					</Entry>
+					<Entry name="D5" stripOffset="0">
+						<Cell column="4" layer="0" name="D5" row="0"/>
+					</Entry>
+					<Entry name="D6" stripOffset="0">
+						<Cell column="5" layer="0" name="D6" row="0"/>
+					</Entry>
+					<Entry name="D7" stripOffset="0">
+						<Cell column="6" layer="0" name="D7" row="0"/>
+					</Entry>
+					<Entry name="D8" stripOffset="0">
+						<Cell column="7" layer="0" name="D8" row="0"/>
+					</Entry>
+					<Entry name="D9" stripOffset="0">
+						<Cell column="8" layer="0" name="D9" row="0"/>
+					</Entry>
+					<Entry name="D10" stripOffset="0">
+						<Cell column="9" layer="0" name="D10" row="0"/>
+					</Entry>
+					<Entry name="D11" stripOffset="0">
+						<Cell column="10" layer="0" name="D11" row="0"/>
+					</Entry>
+					<Entry name="D12" stripOffset="0">
+						<Cell column="11" layer="0" name="D12" row="0"/>
+					</Entry>
+					<Entry name="D13" stripOffset="0">
+						<Cell column="12" layer="0" name="D13" row="0"/>
+					</Entry>
+					<Entry name="D14" stripOffset="0">
+						<Cell column="13" layer="0" name="D14" row="0"/>
+					</Entry>
+					<Entry name="D15" stripOffset="0">
+						<Cell column="14" layer="0" name="D15" row="0"/>
+					</Entry>
+					<Entry name="D16" stripOffset="0">
+						<Cell column="15" layer="0" name="D16" row="0"/>
+					</Entry>
+					<Entry name="D17" stripOffset="0">
+						<Cell column="16" layer="0" name="D17" row="0"/>
+					</Entry>
+					<Entry name="D18" stripOffset="0">
+						<Cell column="17" layer="0" name="D18" row="0"/>
+					</Entry>
+					<Entry name="D19" stripOffset="0">
+						<Cell column="18" layer="0" name="D19" row="0"/>
+					</Entry>
+					<Entry name="D20" stripOffset="0">
+						<Cell column="19" layer="0" name="D20" row="0"/>
+					</Entry>
+					<Entry name="D21" stripOffset="0">
+						<Cell column="20" layer="0" name="D21" row="0"/>
+					</Entry>
+					<Entry name="D22" stripOffset="0">
+						<Cell column="21" layer="0" name="D22" row="0"/>
+					</Entry>
+					<Entry name="D23" stripOffset="0">
+						<Cell column="22" layer="0" name="D23" row="0"/>
+					</Entry>
+					<Entry name="D24" stripOffset="0">
+						<Cell column="23" layer="0" name="D24" row="0"/>
+					</Entry>
+					<Entry name="D25" stripOffset="0">
+						<Cell column="24" layer="0" name="D25" row="0"/>
+					</Entry>
+					<Entry name="D26" stripOffset="0">
+						<Cell column="25" layer="0" name="D26" row="0"/>
+					</Entry>
+					<Entry name="D27" stripOffset="0">
+						<Cell column="26" layer="0" name="D27" row="0"/>
+					</Entry>
+					<Entry name="D28" stripOffset="0">
+						<Cell column="27" layer="0" name="D28" row="0"/>
+					</Entry>
+					<Entry name="D29" stripOffset="0">
+						<Cell column="28" layer="0" name="D29" row="0"/>
+					</Entry>
+					<Entry name="D30" stripOffset="0">
+						<Cell column="29" layer="0" name="D30" row="0"/>
+					</Entry>
+					<Entry name="D31" stripOffset="0">
+						<Cell column="30" layer="0" name="D31" row="0"/>
+					</Entry>
+				</PopulationInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationStripMapping name="ScenarioPerDivision" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Map entry="D1" strip="D1"/>
+					<Map entry="D2" strip="D2"/>
+					<Map entry="D3" strip="D3"/>
+					<Map entry="D4" strip="D4"/>
+					<Map entry="D5" strip="D5"/>
+					<Map entry="D6" strip="D6"/>
+					<Map entry="D7" strip="D7"/>
+					<Map entry="D8" strip="D8"/>
+					<Map entry="D9" strip="D9"/>
+					<Map entry="D10" strip="D10"/>
+					<Map entry="D11" strip="D11"/>
+					<Map entry="D12" strip="D12"/>
+					<Map entry="D13" strip="D13"/>
+					<Map entry="D14" strip="D14"/>
+					<Map entry="D15" strip="D15"/>
+					<Map entry="D16" strip="D16"/>
+					<Map entry="D17" strip="D17"/>
+					<Map entry="D18" strip="D18"/>
+					<Map entry="D19" strip="D19"/>
+					<Map entry="D20" strip="D20"/>
+					<Map entry="D21" strip="D21"/>
+					<Map entry="D22" strip="D22"/>
+					<Map entry="D23" strip="D23"/>
+					<Map entry="D24" strip="D24"/>
+					<Map entry="D25" strip="D25"/>
+					<Map entry="D26" strip="D26"/>
+					<Map entry="D27" strip="D27"/>
+					<Map entry="D28" strip="D28"/>
+					<Map entry="D29" strip="D29"/>
+					<Map entry="D30" strip="D30"/>
+					<Map entry="D31" strip="D31"/>
+				</PopulationStripMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="ScenarioPerDivision" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="D1">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D2">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D3">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D4">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D5">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D6">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D7">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D8">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D9">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D10">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D11">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D12">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D13">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D14">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D15">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D16">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D17">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D18">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D19">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D20">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D21">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D22">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D23">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D24">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D25">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D26">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D27">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D28">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D29">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D30">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+					<Strip name="D31">
+						<Stop symbolID="scenariosInDivision" weight="2500"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<DeepCopyInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<DeepCopy destinationName="ODEResponse" sourceName="ODEResponse.Encrypted" type="JSONOutcome"/>
+				</DeepCopyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationTriggerInfo name="DivisionSelection" strategy="default" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<BulkGameDataStoreInfo name="BulkGameDataStoreInfo" strategy="simulateOdeResponse" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<TableName>GDS_COM_IW_SCENARIO</TableName>
+					<EnableLocalization defaultLanguage="en">false</EnableLocalization>
+					<ShareDataAcrossAllBets defaultBetValue="0">true</ShareDataAcrossAllBets>
+					<MathVersion>300-2114-V2</MathVersion>
+				</BulkGameDataStoreInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<KeyValuePairInfo name="DivisionToScenarioMappings" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Mapping key="1" value="D1"/>
+					<Mapping key="2" value="D2"/>
+					<Mapping key="3" value="D3"/>
+					<Mapping key="4" value="D4"/>
+					<Mapping key="5" value="D5"/>
+					<Mapping key="6" value="D6"/>
+					<Mapping key="7" value="D7"/>
+					<Mapping key="8" value="D8"/>
+					<Mapping key="9" value="D9"/>
+					<Mapping key="10" value="D10"/>
+					<Mapping key="11" value="D11"/>
+					<Mapping key="12" value="D12"/>
+					<Mapping key="13" value="D13"/>
+					<Mapping key="14" value="D14"/>
+					<Mapping key="15" value="D15"/>
+					<Mapping key="16" value="D16"/>
+					<Mapping key="17" value="D17"/>
+					<Mapping key="18" value="D18"/>
+					<Mapping key="19" value="D19"/>
+					<Mapping key="20" value="D20"/>
+					<Mapping key="21" value="D21"/>
+					<Mapping key="22" value="D22"/>
+					<Mapping key="23" value="D23"/>
+					<Mapping key="24" value="D24"/>
+					<Mapping key="25" value="D25"/>
+					<Mapping key="26" value="D26"/>
+					<Mapping key="27" value="D27"/>
+					<Mapping key="28" value="D28"/>
+					<Mapping key="29" value="D29"/>
+					<Mapping key="30" value="D30"/>
+					<Mapping key="31" value="D31"/>
+				</KeyValuePairInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<InstantWinPrizeInfo name="PrizeStructure" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<PricePoint amount="10">
+						<Prize description="1" division="1">100000</Prize>
+						<Prize description="2" division="2">5000</Prize>
+						<Prize description="3" division="3">2000</Prize>
+						<Prize description="4" division="4">1200</Prize>
+						<Prize description="5" division="5">1000</Prize>
+						<Prize description="6" division="6">600</Prize>
+						<Prize description="7" division="7">500</Prize>
+						<Prize description="8" division="8">400</Prize>
+						<Prize description="9" division="9">300</Prize>
+						<Prize description="10" division="10">260</Prize>
+						<Prize description="11" division="11">250</Prize>
+						<Prize description="12" division="12">240</Prize>
+						<Prize description="13" division="13">220</Prize>
+						<Prize description="14" division="14">210</Prize>
+						<Prize description="15" division="15">200</Prize>
+						<Prize description="16" division="16">160</Prize>
+						<Prize description="17" division="17">150</Prize>
+						<Prize description="18" division="18">140</Prize>
+						<Prize description="19" division="19">120</Prize>
+						<Prize description="20" division="20">110</Prize>
+						<Prize description="21" division="21">100</Prize>
+						<Prize description="22" division="22">90</Prize>
+						<Prize description="23" division="23">80</Prize>
+						<Prize description="24" division="24">70</Prize>
+						<Prize description="25" division="25">60</Prize>
+						<Prize description="26" division="26">50</Prize>
+						<Prize description="27" division="27">40</Prize>
+						<Prize description="28" division="28">30</Prize>
+						<Prize description="29" division="29">20</Prize>
+						<Prize description="30" division="30">10</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="20">
+						<Prize description="1" division="1">200000</Prize>
+						<Prize description="2" division="2">20000</Prize>
+						<Prize description="3" division="3">4000</Prize>
+						<Prize description="4" division="4">2400</Prize>
+						<Prize description="5" division="5">2000</Prize>
+						<Prize description="6" division="6">1200</Prize>
+						<Prize description="7" division="7">1000</Prize>
+						<Prize description="8" division="8">800</Prize>
+						<Prize description="9" division="9">600</Prize>
+						<Prize description="10" division="10">520</Prize>
+						<Prize description="11" division="11">500</Prize>
+						<Prize description="12" division="12">480</Prize>
+						<Prize description="13" division="13">440</Prize>
+						<Prize description="14" division="14">420</Prize>
+						<Prize description="15" division="15">400</Prize>
+						<Prize description="16" division="16">320</Prize>
+						<Prize description="17" division="17">300</Prize>
+						<Prize description="18" division="18">280</Prize>
+						<Prize description="19" division="19">240</Prize>
+						<Prize description="20" division="20">220</Prize>
+						<Prize description="21" division="21">200</Prize>
+						<Prize description="22" division="22">180</Prize>
+						<Prize description="23" division="23">160</Prize>
+						<Prize description="24" division="24">140</Prize>
+						<Prize description="25" division="25">120</Prize>
+						<Prize description="26" division="26">100</Prize>
+						<Prize description="27" division="27">80</Prize>
+						<Prize description="28" division="28">60</Prize>
+						<Prize description="29" division="29">40</Prize>
+						<Prize description="30" division="30">20</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="50">
+						<Prize description="1" division="1">500000</Prize>
+						<Prize description="2" division="2">35000</Prize>
+						<Prize description="3" division="3">10000</Prize>
+						<Prize description="4" division="4">6000</Prize>
+						<Prize description="5" division="5">5000</Prize>
+						<Prize description="6" division="6">3000</Prize>
+						<Prize description="7" division="7">2500</Prize>
+						<Prize description="8" division="8">2000</Prize>
+						<Prize description="9" division="9">1500</Prize>
+						<Prize description="10" division="10">1300</Prize>
+						<Prize description="11" division="11">1250</Prize>
+						<Prize description="12" division="12">1200</Prize>
+						<Prize description="13" division="13">1100</Prize>
+						<Prize description="14" division="14">1050</Prize>
+						<Prize description="15" division="15">1000</Prize>
+						<Prize description="16" division="16">800</Prize>
+						<Prize description="17" division="17">750</Prize>
+						<Prize description="18" division="18">700</Prize>
+						<Prize description="19" division="19">600</Prize>
+						<Prize description="20" division="20">550</Prize>
+						<Prize description="21" division="21">500</Prize>
+						<Prize description="22" division="22">450</Prize>
+						<Prize description="23" division="23">400</Prize>
+						<Prize description="24" division="24">350</Prize>
+						<Prize description="25" division="25">300</Prize>
+						<Prize description="26" division="26">250</Prize>
+						<Prize description="27" division="27">200</Prize>
+						<Prize description="28" division="28">150</Prize>
+						<Prize description="29" division="29">100</Prize>
+						<Prize description="30" division="30">50</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="100">
+						<Prize description="1" division="1">1000000</Prize>
+						<Prize description="2" division="2">50000</Prize>
+						<Prize description="3" division="3">20000</Prize>
+						<Prize description="4" division="4">12000</Prize>
+						<Prize description="5" division="5">10000</Prize>
+						<Prize description="6" division="6">6000</Prize>
+						<Prize description="7" division="7">5000</Prize>
+						<Prize description="8" division="8">4000</Prize>
+						<Prize description="9" division="9">3000</Prize>
+						<Prize description="10" division="10">2600</Prize>
+						<Prize description="11" division="11">2500</Prize>
+						<Prize description="12" division="12">2400</Prize>
+						<Prize description="13" division="13">2200</Prize>
+						<Prize description="14" division="14">2100</Prize>
+						<Prize description="15" division="15">2000</Prize>
+						<Prize description="16" division="16">1600</Prize>
+						<Prize description="17" division="17">1500</Prize>
+						<Prize description="18" division="18">1400</Prize>
+						<Prize description="19" division="19">1200</Prize>
+						<Prize description="20" division="20">1100</Prize>
+						<Prize description="21" division="21">1000</Prize>
+						<Prize description="22" division="22">900</Prize>
+						<Prize description="23" division="23">800</Prize>
+						<Prize description="24" division="24">700</Prize>
+						<Prize description="25" division="25">600</Prize>
+						<Prize description="26" division="26">500</Prize>
+						<Prize description="27" division="27">400</Prize>
+						<Prize description="28" division="28">300</Prize>
+						<Prize description="29" division="29">200</Prize>
+						<Prize description="30" division="30">100</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="200">
+						<Prize description="1" division="1">2500000</Prize>
+						<Prize description="2" division="2">250000</Prize>
+						<Prize description="3" division="3">40000</Prize>
+						<Prize description="4" division="4">24000</Prize>
+						<Prize description="5" division="5">20000</Prize>
+						<Prize description="6" division="6">12000</Prize>
+						<Prize description="7" division="7">10000</Prize>
+						<Prize description="8" division="8">8000</Prize>
+						<Prize description="9" division="9">6000</Prize>
+						<Prize description="10" division="10">5200</Prize>
+						<Prize description="11" division="11">5000</Prize>
+						<Prize description="12" division="12">4800</Prize>
+						<Prize description="13" division="13">4400</Prize>
+						<Prize description="14" division="14">4200</Prize>
+						<Prize description="15" division="15">4000</Prize>
+						<Prize description="16" division="16">3200</Prize>
+						<Prize description="17" division="17">3000</Prize>
+						<Prize description="18" division="18">2800</Prize>
+						<Prize description="19" division="19">2400</Prize>
+						<Prize description="20" division="20">2200</Prize>
+						<Prize description="21" division="21">2000</Prize>
+						<Prize description="22" division="22">1800</Prize>
+						<Prize description="23" division="23">1600</Prize>
+						<Prize description="24" division="24">1400</Prize>
+						<Prize description="25" division="25">1200</Prize>
+						<Prize description="26" division="26">1000</Prize>
+						<Prize description="27" division="27">800</Prize>
+						<Prize description="28" division="28">600</Prize>
+						<Prize description="29" division="29">400</Prize>
+						<Prize description="30" division="30">200</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="300">
+						<Prize description="1" division="1">6000000</Prize>
+						<Prize description="2" division="2">300000</Prize>
+						<Prize description="3" division="3">60000</Prize>
+						<Prize description="4" division="4">36000</Prize>
+						<Prize description="5" division="5">30000</Prize>
+						<Prize description="6" division="6">18000</Prize>
+						<Prize description="7" division="7">15000</Prize>
+						<Prize description="8" division="8">12000</Prize>
+						<Prize description="9" division="9">9000</Prize>
+						<Prize description="10" division="10">7800</Prize>
+						<Prize description="11" division="11">7500</Prize>
+						<Prize description="12" division="12">7200</Prize>
+						<Prize description="13" division="13">6600</Prize>
+						<Prize description="14" division="14">6300</Prize>
+						<Prize description="15" division="15">6000</Prize>
+						<Prize description="16" division="16">4800</Prize>
+						<Prize description="17" division="17">4500</Prize>
+						<Prize description="18" division="18">4200</Prize>
+						<Prize description="19" division="19">3600</Prize>
+						<Prize description="20" division="20">3300</Prize>
+						<Prize description="21" division="21">3000</Prize>
+						<Prize description="22" division="22">2700</Prize>
+						<Prize description="23" division="23">2400</Prize>
+						<Prize description="24" division="24">2100</Prize>
+						<Prize description="25" division="25">1800</Prize>
+						<Prize description="26" division="26">1500</Prize>
+						<Prize description="27" division="27">1200</Prize>
+						<Prize description="28" division="28">900</Prize>
+						<Prize description="29" division="29">600</Prize>
+						<Prize description="30" division="30">300</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="500">
+						<Prize description="1" division="1">15000000</Prize>
+						<Prize description="2" division="2">750000</Prize>
+						<Prize description="3" division="3">100000</Prize>
+						<Prize description="4" division="4">60000</Prize>
+						<Prize description="5" division="5">50000</Prize>
+						<Prize description="6" division="6">30000</Prize>
+						<Prize description="7" division="7">25000</Prize>
+						<Prize description="8" division="8">20000</Prize>
+						<Prize description="9" division="9">15000</Prize>
+						<Prize description="10" division="10">13000</Prize>
+						<Prize description="11" division="11">12500</Prize>
+						<Prize description="12" division="12">12000</Prize>
+						<Prize description="13" division="13">11000</Prize>
+						<Prize description="14" division="14">10500</Prize>
+						<Prize description="15" division="15">10000</Prize>
+						<Prize description="16" division="16">8000</Prize>
+						<Prize description="17" division="17">7500</Prize>
+						<Prize description="18" division="18">7000</Prize>
+						<Prize description="19" division="19">6000</Prize>
+						<Prize description="20" division="20">5500</Prize>
+						<Prize description="21" division="21">5000</Prize>
+						<Prize description="22" division="22">4500</Prize>
+						<Prize description="23" division="23">4000</Prize>
+						<Prize description="24" division="24">3500</Prize>
+						<Prize description="25" division="25">3000</Prize>
+						<Prize description="26" division="26">2500</Prize>
+						<Prize description="27" division="27">2000</Prize>
+						<Prize description="28" division="28">1500</Prize>
+						<Prize description="29" division="29">1000</Prize>
+						<Prize description="30" division="30">500</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+					<PricePoint amount="1000">
+						<Prize description="1" division="1">25000000</Prize>
+						<Prize description="2" division="2">1000000</Prize>
+						<Prize description="3" division="3">200000</Prize>
+						<Prize description="4" division="4">120000</Prize>
+						<Prize description="5" division="5">100000</Prize>
+						<Prize description="6" division="6">60000</Prize>
+						<Prize description="7" division="7">50000</Prize>
+						<Prize description="8" division="8">40000</Prize>
+						<Prize description="9" division="9">30000</Prize>
+						<Prize description="10" division="10">26000</Prize>
+						<Prize description="11" division="11">25000</Prize>
+						<Prize description="12" division="12">24000</Prize>
+						<Prize description="13" division="13">22000</Prize>
+						<Prize description="14" division="14">21000</Prize>
+						<Prize description="15" division="15">20000</Prize>
+						<Prize description="16" division="16">16000</Prize>
+						<Prize description="17" division="17">15000</Prize>
+						<Prize description="18" division="18">14000</Prize>
+						<Prize description="19" division="19">12000</Prize>
+						<Prize description="20" division="20">11000</Prize>
+						<Prize description="21" division="21">10000</Prize>
+						<Prize description="22" division="22">9000</Prize>
+						<Prize description="23" division="23">8000</Prize>
+						<Prize description="24" division="24">7000</Prize>
+						<Prize description="25" division="25">6000</Prize>
+						<Prize description="26" division="26">5000</Prize>
+						<Prize description="27" division="27">4000</Prize>
+						<Prize description="28" division="28">3000</Prize>
+						<Prize description="29" division="29">2000</Prize>
+						<Prize description="30" division="30">1000</Prize>
+						<Prize description="31" division="31">0</Prize>
+					</PricePoint>
+				</InstantWinPrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<InstantWinPrizeInfo name="PrizeTable" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<PricePoint amount="10">
+						<Prize description="A" division="1">100000</Prize>
+						<Prize description="B" division="2">5000</Prize>
+						<Prize description="C" division="3">1000</Prize>
+						<Prize description="D" division="4">400</Prize>
+						<Prize description="E" division="5">200</Prize>
+						<Prize description="F" division="6">100</Prize>
+						<Prize description="G" division="7">60</Prize>
+						<Prize description="H" division="8">40</Prize>
+						<Prize description="I" division="9">20</Prize>
+						<Prize description="J" division="10">10</Prize>
+						<Prize description="Q" division="11">100000</Prize>
+						<Prize description="R" division="12">5000</Prize>
+						<Prize description="S" division="13">1000</Prize>
+						<Prize description="T" division="14">400</Prize>
+						<Prize description="U" division="15">200</Prize>
+						<Prize description="V" division="16">100</Prize>
+						<Prize description="W" division="17">60</Prize>
+						<Prize description="X" division="18">40</Prize>
+						<Prize description="Y" division="19">20</Prize>
+						<Prize description="Z" division="20">10</Prize>
+						<Prize description="1" division="21">1000</Prize>
+						<Prize description="2" division="22">200</Prize>
+						<Prize description="3" division="23">100</Prize>
+						<Prize description="4" division="24">50</Prize>
+						<Prize description="5" division="25">20</Prize>
+					</PricePoint>
+					<PricePoint amount="20">
+						<Prize description="A" division="1">200000</Prize>
+						<Prize description="B" division="2">20000</Prize>
+						<Prize description="C" division="3">2000</Prize>
+						<Prize description="D" division="4">800</Prize>
+						<Prize description="E" division="5">400</Prize>
+						<Prize description="F" division="6">200</Prize>
+						<Prize description="G" division="7">120</Prize>
+						<Prize description="H" division="8">80</Prize>
+						<Prize description="I" division="9">40</Prize>
+						<Prize description="J" division="10">20</Prize>
+						<Prize description="Q" division="11">200000</Prize>
+						<Prize description="R" division="12">20000</Prize>
+						<Prize description="S" division="13">2000</Prize>
+						<Prize description="T" division="14">800</Prize>
+						<Prize description="U" division="15">400</Prize>
+						<Prize description="V" division="16">200</Prize>
+						<Prize description="W" division="17">120</Prize>
+						<Prize description="X" division="18">80</Prize>
+						<Prize description="Y" division="19">40</Prize>
+						<Prize description="Z" division="20">20</Prize>
+						<Prize description="1" division="21">2000</Prize>
+						<Prize description="2" division="22">400</Prize>
+						<Prize description="3" division="23">200</Prize>
+						<Prize description="4" division="24">100</Prize>
+						<Prize description="5" division="25">40</Prize>
+					</PricePoint>
+					<PricePoint amount="50">
+						<Prize description="A" division="1">500000</Prize>
+						<Prize description="B" division="2">35000</Prize>
+						<Prize description="C" division="3">5000</Prize>
+						<Prize description="D" division="4">2000</Prize>
+						<Prize description="E" division="5">1000</Prize>
+						<Prize description="F" division="6">500</Prize>
+						<Prize description="G" division="7">300</Prize>
+						<Prize description="H" division="8">200</Prize>
+						<Prize description="I" division="9">100</Prize>
+						<Prize description="J" division="10">50</Prize>
+						<Prize description="Q" division="11">500000</Prize>
+						<Prize description="R" division="12">35000</Prize>
+						<Prize description="S" division="13">5000</Prize>
+						<Prize description="T" division="14">2000</Prize>
+						<Prize description="U" division="15">1000</Prize>
+						<Prize description="V" division="16">500</Prize>
+						<Prize description="W" division="17">300</Prize>
+						<Prize description="X" division="18">200</Prize>
+						<Prize description="Y" division="19">100</Prize>
+						<Prize description="Z" division="20">50</Prize>
+						<Prize description="1" division="21">5000</Prize>
+						<Prize description="2" division="22">1000</Prize>
+						<Prize description="3" division="23">500</Prize>
+						<Prize description="4" division="24">250</Prize>
+						<Prize description="5" division="25">100</Prize>
+					</PricePoint>
+					<PricePoint amount="100">
+						<Prize description="A" division="1">1000000</Prize>
+						<Prize description="B" division="2">50000</Prize>
+						<Prize description="C" division="3">10000</Prize>
+						<Prize description="D" division="4">4000</Prize>
+						<Prize description="E" division="5">2000</Prize>
+						<Prize description="F" division="6">1000</Prize>
+						<Prize description="G" division="7">600</Prize>
+						<Prize description="H" division="8">400</Prize>
+						<Prize description="I" division="9">200</Prize>
+						<Prize description="J" division="10">100</Prize>
+						<Prize description="Q" division="11">1000000</Prize>
+						<Prize description="R" division="12">50000</Prize>
+						<Prize description="S" division="13">10000</Prize>
+						<Prize description="T" division="14">4000</Prize>
+						<Prize description="U" division="15">2000</Prize>
+						<Prize description="V" division="16">1000</Prize>
+						<Prize description="W" division="17">600</Prize>
+						<Prize description="X" division="18">400</Prize>
+						<Prize description="Y" division="19">200</Prize>
+						<Prize description="Z" division="20">100</Prize>
+						<Prize description="1" division="21">10000</Prize>
+						<Prize description="2" division="22">2000</Prize>
+						<Prize description="3" division="23">1000</Prize>
+						<Prize description="4" division="24">500</Prize>
+						<Prize description="5" division="25">200</Prize>
+					</PricePoint>
+					<PricePoint amount="200">
+						<Prize description="A" division="1">2500000</Prize>
+						<Prize description="B" division="2">250000</Prize>
+						<Prize description="C" division="3">20000</Prize>
+						<Prize description="D" division="4">8000</Prize>
+						<Prize description="E" division="5">4000</Prize>
+						<Prize description="F" division="6">2000</Prize>
+						<Prize description="G" division="7">1200</Prize>
+						<Prize description="H" division="8">800</Prize>
+						<Prize description="I" division="9">400</Prize>
+						<Prize description="J" division="10">200</Prize>
+						<Prize description="Q" division="11">2500000</Prize>
+						<Prize description="R" division="12">250000</Prize>
+						<Prize description="S" division="13">20000</Prize>
+						<Prize description="T" division="14">8000</Prize>
+						<Prize description="U" division="15">4000</Prize>
+						<Prize description="V" division="16">2000</Prize>
+						<Prize description="W" division="17">1200</Prize>
+						<Prize description="X" division="18">800</Prize>
+						<Prize description="Y" division="19">400</Prize>
+						<Prize description="Z" division="20">200</Prize>
+						<Prize description="1" division="21">20000</Prize>
+						<Prize description="2" division="22">4000</Prize>
+						<Prize description="3" division="23">2000</Prize>
+						<Prize description="4" division="24">1000</Prize>
+						<Prize description="5" division="25">400</Prize>
+					</PricePoint>
+					<PricePoint amount="300">
+						<Prize description="A" division="1">6000000</Prize>
+						<Prize description="B" division="2">300000</Prize>
+						<Prize description="C" division="3">30000</Prize>
+						<Prize description="D" division="4">12000</Prize>
+						<Prize description="E" division="5">6000</Prize>
+						<Prize description="F" division="6">3000</Prize>
+						<Prize description="G" division="7">1800</Prize>
+						<Prize description="H" division="8">1200</Prize>
+						<Prize description="I" division="9">600</Prize>
+						<Prize description="J" division="10">300</Prize>
+						<Prize description="Q" division="11">6000000</Prize>
+						<Prize description="R" division="12">300000</Prize>
+						<Prize description="S" division="13">30000</Prize>
+						<Prize description="T" division="14">12000</Prize>
+						<Prize description="U" division="15">6000</Prize>
+						<Prize description="V" division="16">3000</Prize>
+						<Prize description="W" division="17">1800</Prize>
+						<Prize description="X" division="18">1200</Prize>
+						<Prize description="Y" division="19">600</Prize>
+						<Prize description="Z" division="20">300</Prize>
+						<Prize description="1" division="21">30000</Prize>
+						<Prize description="2" division="22">6000</Prize>
+						<Prize description="3" division="23">3000</Prize>
+						<Prize description="4" division="24">1500</Prize>
+						<Prize description="5" division="25">600</Prize>
+					</PricePoint>
+					<PricePoint amount="500">
+						<Prize description="A" division="1">15000000</Prize>
+						<Prize description="B" division="2">750000</Prize>
+						<Prize description="C" division="3">50000</Prize>
+						<Prize description="D" division="4">20000</Prize>
+						<Prize description="E" division="5">10000</Prize>
+						<Prize description="F" division="6">5000</Prize>
+						<Prize description="G" division="7">3000</Prize>
+						<Prize description="H" division="8">2000</Prize>
+						<Prize description="I" division="9">1000</Prize>
+						<Prize description="J" division="10">500</Prize>
+						<Prize description="Q" division="11">15000000</Prize>
+						<Prize description="R" division="12">750000</Prize>
+						<Prize description="S" division="13">50000</Prize>
+						<Prize description="T" division="14">20000</Prize>
+						<Prize description="U" division="15">10000</Prize>
+						<Prize description="V" division="16">5000</Prize>
+						<Prize description="W" division="17">3000</Prize>
+						<Prize description="X" division="18">2000</Prize>
+						<Prize description="Y" division="19">1000</Prize>
+						<Prize description="Z" division="20">500</Prize>
+						<Prize description="1" division="21">50000</Prize>
+						<Prize description="2" division="22">10000</Prize>
+						<Prize description="3" division="23">5000</Prize>
+						<Prize description="4" division="24">2500</Prize>
+						<Prize description="5" division="25">1000</Prize>
+					</PricePoint>
+					<PricePoint amount="1000">
+						<Prize description="A" division="1">25000000</Prize>
+						<Prize description="B" division="2">1000000</Prize>
+						<Prize description="C" division="3">100000</Prize>
+						<Prize description="D" division="4">40000</Prize>
+						<Prize description="E" division="5">20000</Prize>
+						<Prize description="F" division="6">10000</Prize>
+						<Prize description="G" division="7">6000</Prize>
+						<Prize description="H" division="8">4000</Prize>
+						<Prize description="I" division="9">2000</Prize>
+						<Prize description="J" division="10">1000</Prize>
+						<Prize description="Q" division="11">25000000</Prize>
+						<Prize description="R" division="12">1000000</Prize>
+						<Prize description="S" division="13">100000</Prize>
+						<Prize description="T" division="14">40000</Prize>
+						<Prize description="U" division="15">20000</Prize>
+						<Prize description="V" division="16">10000</Prize>
+						<Prize description="W" division="17">6000</Prize>
+						<Prize description="X" division="18">4000</Prize>
+						<Prize description="Y" division="19">2000</Prize>
+						<Prize description="Z" division="20">1000</Prize>
+						<Prize description="1" division="21">100000</Prize>
+						<Prize description="2" division="22">20000</Prize>
+						<Prize description="3" division="23">10000</Prize>
+						<Prize description="4" division="24">5000</Prize>
+						<Prize description="5" division="25">2000</Prize>
+					</PricePoint>
+				</InstantWinPrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PrizeInfo multiplierStrategy="null" name="ODE" strategy="ode" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Prize name="Total">
+						<PrizePay count="1" value="0"/>
+					</Prize>
+				</PrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="scenario" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Reveal.Status" verificationStrategy="revealStatus" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<RevealIncompleteTrigger>incomplete</RevealIncompleteTrigger>
+					<RevealCompleteTrigger>complete</RevealCompleteTrigger>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Reveal.RevealData" verificationStrategy="revealData" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Reveal" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="incomplete" stageConnector="RevealToReveal"/>
+					<Trigger name="complete" stageConnector="RevealToWager"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Reveal" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="incomplete" payoutState="noPayout" priority="50" wagerState="pending"/>
+					<Trigger name="complete" payoutState="payout" priority="0" wagerState="settled"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+		</Paytable>
+	</DigestedData>
+</SignedPaytable>
